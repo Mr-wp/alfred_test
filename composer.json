@@ -1,0 +1,26 @@
+{
+    "name": "alfred/test",
+    "description": "test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alfred",
+            "email": "silentwolf_wp@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "Alfred-1.0",
+    "autoload": {
+        "psr-4": {
+            "Alfred\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alfred"
+        }
+    ],
+    "minimum-stability": "stable"
+}
