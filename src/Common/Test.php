@@ -13,7 +13,7 @@ class Test
 {
 
     public function index(){
-        echo 'hello world';
+        echo 'hello boy';
     }
     public function check(){
         if(in_array($_SERVER['HTTP_HOST'],['www.findwp.cn'])){
